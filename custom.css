@@ -1,0 +1,161 @@
+html,
+body {
+    --theme-color: rgba(61, 172, 147, 1);
+    --theme-color-shadow: rgba(61, 172, 147, .6);
+    --theme-background: rgba(30, 28, 46, 1);
+    --theme-background-light: rgba(40, 39, 53, 1);
+    --theme-header-color: rgba(55,52,69,.6);
+    --theme-button-hover: rgb(64, 60, 80);
+    --text-white: rgba(255, 255, 255, 1);
+    --text-white-a8: rgba(255, 255, 255, .8);
+    --text-white-a6: rgba(255, 255, 255, .6);
+    
+    background: rgba(29, 28, 42, 1) !important;
+    margin: 0 !important;
+    font-family: 'Muli', 'Noto Sans SC', sans-serif;
+}
+a .dark #header.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark),
+.dark #header.sticky-header.transparent-header #header-wrap:not(.not-dark),
+.dark #header.transparent-header.floating-header .container,
+.dark #header.transparent-header.floating-header.sticky-header .container,
+#header.dark.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark),
+#header.dark.sticky-header.transparent-header #header-wrap:not(.not-dark),
+#header.dark.transparent-header.floating-header .container,
+#header.dark.transparent-header.floating-header.sticky-header .container,
+.dark .responsive-sticky-header #header-wrap,
+.responsive-sticky-header.dark #header-wrap {
+    background: var(--theme-header-color) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+#gotoTop:hover {
+    background: var(--theme-button-hover);
+}
+.stretched #gotoTop {
+    bottom: 60px !important;
+}
+#header {
+    position: absolute;
+    width: 100%;
+}
+#header-wrap {
+    position: relative;
+    z-index: 199;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-div {
+    cursor: pointer;
+    display: block;
+    line-height: 22px;
+    padding: 19px 15px;
+    font-weight: 400 !important;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.nav-button {
+    color: var(--text-white-a6) !important;
+    transition: all .2s !important;
+    font-weight: 300;
+}
+.nav-button:hover {
+    color: var(--text-white) !important;
+    text-shadow: 0 0 2px rgba(255,255,255,.4) !important;
+}
+#primary-menu ul ul:not(.mega-menu-column), #primary-menu ul li .mega-menu-content {
+    background: var(--theme-header-color) !important;
+    border: none;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.3) !important;
+    top: 110% !important;
+    width: 120px;
+    min-width: 120px;
+}
+.dropdown-menu > li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+#primary-menu ul li > a, .dropdown-menu ul li > a {
+    font-weight: 400 !important;
+    cursor: pointer;
+}
+.dropdown-menu > li > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: transparent!important;
+}
+.dropdown-menu > li:hover, .dropdown-menu > li:focus {
+    background: var(--theme-button-hover) !important;
+}
+.nav-locale {
+    width: 20px;
+}
+
+.content {
+    height: 100vh;
+    justify-content: center;
+    background-image: url("./images/backgrounds/mountainBG.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.content--canvas {
+    position: relative;
+}
+.content__wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    transition: all .3s;
+}
+.content__title {
+    margin: 20px 0;
+    width: 480px;
+}
+.content__subtitle {
+    font-size: 24px;
+    color: var(--text-white);
+    line-height: 30px;
+    margin: 10px 0;
+    font-weight: 200;
+    text-align: center;
+    max-width: 720px;
+}
+.content__subtitle:after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid var(--theme-color);
+    box-shadow: 0 -3px 12px var(--theme-color-shadow);
+    margin: 20px auto 0px;
+    width: 120px;
+}
+
+canvas {
+    opacity: 0.15;
+}
+
+.page2 {
+    background: var(--theme-background);
+    height: 100vh;
+}
+
+.heading-block {
+    margin-bottom: 40px;
+}
+.heading-block:after {
+    border-top: 3px solid var(--theme-color);
+    box-shadow: 0 -3px 12px var(--theme-color-shadow);
+    width: 60px;
+    margin-top: 10px !important;
+}
+.block-title {
+    padding-top: 0 !important;
+}
+.heading-block>h3 {
+    font-size: 26px;
+    color: var(--text-white-a8);
+    margin-bottom: 10px;
+}

@@ -161,11 +161,15 @@ canvas {
     color: var(--text-white-a9);
     margin-bottom: 10px;
 }
+.intro-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 960px;
+}
 .intro-text {
-    margin: 40px auto 0;
+    margin: 20px auto;
     font-size: 18px;
     text-align: center;
     line-height: 24px;
     color: var(--text-white-a7);
-    max-width: 800px;
 }

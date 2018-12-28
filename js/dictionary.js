@@ -32,7 +32,15 @@ const dictionary = {
         'EN': 'Language',
         'CN': '语言',
     },
-    'intro-text': {
+    'intro-text1': {
+        'EN': 'Create just what you need for your Perfect Website. Choose from a wide range of Elements & simply put them on our Canvas.',
+        'CN': '中文中文中文中文中文中文中文.'
+    },
+    'intro-text2': {
+        'EN': 'Create just what you need for your Perfect Website. Choose from a wide range of Elements & simply put them on our Canvas.',
+        'CN': '中文中文中文中文中文中文中文.'
+    },
+    'intro-text3': {
         'EN': 'Create just what you need for your Perfect Website. Choose from a wide range of Elements & simply put them on our Canvas.',
         'CN': '中文中文中文中文中文中文中文.'
     }

@@ -7,7 +7,9 @@ body {
     --theme-header-color: rgba(55,52,69,.6);
     --theme-button-hover: rgb(64, 60, 80);
     --text-white: rgba(255, 255, 255, 1);
+    --text-white-a9: rgba(255, 255, 255, .9);
     --text-white-a8: rgba(255, 255, 255, .8);
+    --text-white-a7: rgba(255, 255, 255, .7);
     --text-white-a6: rgba(255, 255, 255, .6);
     
     background: rgba(29, 28, 42, 1) !important;
@@ -156,6 +158,14 @@ canvas {
 }
 .heading-block>h3 {
     font-size: 26px;
-    color: var(--text-white-a8);
+    color: var(--text-white-a9);
     margin-bottom: 10px;
+}
+.intro-text {
+    margin: 40px auto 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    color: var(--text-white-a7);
+    max-width: 800px;
 }

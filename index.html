@@ -19,6 +19,7 @@
     <link rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.min.css'>
 
     <link rel='stylesheet' href='custom.css' type='text/css' />
+    <link rel='stylesheet' href='anim.css' type='text/css' />
 
     <meta name='viewport' content='width=device-width, initial-scale=1' />
 
@@ -106,16 +107,13 @@
         <section id="intro" class="page2 clearfix">
             <div class="block-title">
                 <div class="heading-block center" style='margin-bottom: 0px;'>
-                    <h3 class="bigger-title">Introduction</h3>
+                    <h3 class="bigger-title" data-translate='nav-button2'></h3>
                 </div>
             </div>
-            <p data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect
-                Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
+            <p class="intro-text fade-in-bottom" data-translate='intro-text'></p>
         </section>
     </main>
-    <!-- External JavaScripts
-    ============================================= -->
-    <script type='text/javascript' src='js/jquery.js'></script>
+
     <!-- Go To Top
 	============================================= -->
     <div id='gotoTop' class='icon-angle-up'>
@@ -132,7 +130,7 @@
     <script type='text/javascript' src='js/plugins.js'></script>
     <script type='text/javascript' src='js/functions.js'></script>
     <script type='text/javascript' src='js/dictionary.js'></script>
-
+    <script type='text/javascript' src='js/transitionAnim.js'></script>
 </body>
 
 

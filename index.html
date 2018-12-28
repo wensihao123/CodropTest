@@ -1,235 +1,316 @@
 <!DOCTYPE html>
-<html dir='ltr' lang='en-US'>
-
-<head>
-
-    <meta http-equiv='content-type' content='text/html; charset=utf-8' />
-    <meta name='author' content='SemiColonWeb' />
+<html dir="ltr" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
 
     <!-- Stylesheets
 	============================================= -->
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900' rel='stylesheet' type='text/css' />
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900|Noto+Sans+SC:200,300,400,500,700' rel='stylesheet'
-        type='text/css' />
-    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
-    <link rel='stylesheet' href='css/bootstrap.css' type='text/css' />
-    <link rel='stylesheet' href='style.css' type='text/css' />
-    <link rel='stylesheet' href='css/animate.css' type='text/css' />
-    <link rel='stylesheet' href='css/responsive.css' type='text/css' />
-    <link rel='stylesheet' href='https://unpkg.com/flickity@2/dist/flickity.min.css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900|Noto+Sans+SC:200,300,400,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
 
-    <link rel='stylesheet' href='custom.css' type='text/css' />
-    <link rel='stylesheet' href='anim.css' type='text/css' />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="anim.css" type="text/css" />
 
-    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Document Title
 	============================================= -->
     <title>Codrop Test</title>
+  </head>
 
-</head>
-
-<body class='stretched'>
-    <header id='header' class='transparent-header hidden-xs page-section dark'>
-
-        <div id='header-wrap'>
-
-            <div class='container clearfix'>
-
-                <div id='logo'>
-                    <a href='./index.html' class='standard-logo' data-dark-logo='./images/icons/nav-logo.png'
-                        data-sticky-logo='./images/icons/nav-logo.png' data-mobile-logo='./images/icons/nav-logo.png'>
-                        <img src='./images/icons/nav-logo.png' alt='LD Logo'>
-                    </a>
-                    <a href='./index.html' class='retina-logo' data-dark-logo='./images/icons/nav-logo.png'
-                        data-sticky-logo='./images/icons/nav-logo.png' data-mobile-logo='./images/icons/nav-logo.png'>
-                        <img src='./images/icons/nav-logo.png' alt='LD Logo'>
-                    </a>
+  <body class="stretched">
+    <header id="header" class="transparent-header hidden-xs page-section dark">
+      <div id="header-wrap">
+        <div class="container clearfix">
+          <div id="logo">
+            <a
+              href="./index.html"
+              class="standard-logo"
+              data-dark-logo="./images/icons/nav-logo.png"
+              data-sticky-logo="./images/icons/nav-logo.png"
+              data-mobile-logo="./images/icons/nav-logo.png"
+            >
+              <img src="./images/icons/nav-logo.png" alt="LD Logo" />
+            </a>
+            <a
+              href="./index.html"
+              class="retina-logo"
+              data-dark-logo="./images/icons/nav-logo.png"
+              data-sticky-logo="./images/icons/nav-logo.png"
+              data-mobile-logo="./images/icons/nav-logo.png"
+            >
+              <img src="./images/icons/nav-logo.png" alt="LD Logo" />
+            </a>
+          </div>
+          <nav id="primary-menu">
+            <ul
+              class="one-page-menu"
+              data-easing="easeInOutExpo"
+              data-speed="1500"
+            >
+              <li>
+                <a href="" class="nav-button" data-href="#home">
+                  <div data-translate="nav-button-home"></div>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-button" data-href="#intro">
+                  <div data-translate="nav-button2"></div>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-button" data-href="#portfolio">
+                  <div data-translate="nav-button3"></div>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-button" data-href="#services">
+                  <div data-translate="nav-button4"></div>
+                </a>
+              </li>
+              <li>
+                <a href="" class="nav-button" data-href="#team">
+                  <div data-translate="nav-button5"></div>
+                </a>
+              </li>
+              <li>
+                <div class="nav-button nav-div">
+                  <div data-translate="nav-button-lang"></div>
                 </div>
-                <nav id='primary-menu'>
-                    <ul class='one-page-menu' data-easing='easeInOutExpo' data-speed='1500'>
-                        <li>
-                            <a href='' class='nav-button' data-href='#home'>
-                                <div data-translate='nav-button-home'></div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='' class='nav-button' data-href='#intro'>
-                                <div data-translate='nav-button2'></div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='' class='nav-button' data-href='#portfolio'>
-                                <div data-translate='nav-button3'></div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='' class='nav-button' data-href='#services'>
-                                <div data-translate='nav-button4'></div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href='' class='nav-button' data-href='#team'>
-                                <div data-translate='nav-button5'></div>
-                            </a>
-                        </li>
-                        <li>
-                            <div class='nav-button nav-div'>
-                                <div data-translate='nav-button-lang'></div>
-                            </div>
-                            <ul class='dropdown-menu'>
-                                <li>
-                                    <img class='nav-locale' src='./images/locale/en.png' />
-                                    <a onclick='change_lang(0)' class='nav-button dropdown-button'>
-                                        <div>EN</div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <img class='nav-locale' src='./images/locale/cn.png' />
-                                    <a onclick='change_lang(1)' class='nav-button dropdown-button'>
-                                        <div>中文</div>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- #primary-menu end -->
-            </div>
-
+                <ul class="dropdown-menu">
+                  <li>
+                    <img class="nav-locale" src="./images/locale/en.png" />
+                    <a
+                      onclick="change_lang(0)"
+                      class="nav-button dropdown-button"
+                    >
+                      <div>EN</div>
+                    </a>
+                  </li>
+                  <li>
+                    <img class="nav-locale" src="./images/locale/cn.png" />
+                    <a
+                      onclick="change_lang(1)"
+                      class="nav-button dropdown-button"
+                    >
+                      <div>中文</div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <!-- #primary-menu end -->
         </div>
-
+      </div>
     </header>
     <main>
-        <section id="home" class='frame page1'>
-            <div class='content content--canvas'>
-                <div class='content__wrapper'>
-                    <img class='content__title' data-translate='title' src='./images/icons/title_pic.png' />
-                    <div class='content__subtitle' data-translate='subtitle'></div>
-                </div>
+      <section id="home" class="frame page1">
+        <div class="content content--canvas">
+          <div class="content__wrapper">
+            <img
+              class="content__title"
+              data-translate="title"
+              src="./images/icons/title_pic.png"
+            />
+            <div class="content__subtitle" data-translate="subtitle"></div>
+          </div>
+        </div>
+      </section>
+      <section id="intro" class="page2 clearfix">
+        <div class="block-title">
+          <div class="heading-block center" style="margin-bottom: 0px;">
+            <h3 class="bigger-title" data-translate="nav-button2"></h3>
+          </div>
+        </div>
+        <div class="intro-wrapper">
+          <p class="intro-text fade-in-bottom" data-translate="intro-text1"></p>
+          <p class="intro-text fade-in-bottom" data-translate="intro-text2"></p>
+          <p class="intro-text fade-in-bottom" data-translate="intro-text3"></p>
+        </div>
+      </section>
+      <section id="portfolio" class="page3 clearfix">
+        <div class="block-title">
+          <div class="heading-block center" style="margin-bottom: 0px;">
+            <h3 class="bigger-title" data-translate="nav-button3"></h3>
+          </div>
+        </div>
+        <div class="grid-wrapper">
+          <div class="port-row fade-in-bottom">
+            <div class="port-item">
+              <img
+                src="./images/portfolio/eos.svg"
+                style="width:40px; height:40px; margin: 12px 12px"
+              />
+              <p>EOS</p>
             </div>
-        </section>
-        <section id="intro" class="page2 clearfix">
-            <div class="block-title">
-                <div class="heading-block center" style='margin-bottom: 0px;'>
-                    <h3 class="bigger-title" data-translate='nav-button2'></h3>
-                </div>
+            <div class="port-item">
+              <img src="./images/portfolio/stellar.png" />
+              <p>Stellar</p>
             </div>
-            <div class='intro-wrapper'>
-                <p class="intro-text fade-in-bottom" data-translate='intro-text1'></p>
-                <p class="intro-text fade-in-bottom" data-translate='intro-text2'></p>
-                <p class="intro-text fade-in-bottom" data-translate='intro-text3'></p>
+            <div class="port-item">
+              <img src="./images/portfolio/vechain.png" />
+              <p>Vechain</p>
             </div>
-        </section>
-        <section id="portfolio" class="page3 clearfix">
-            <div class="block-title">
-                <div class="heading-block center" style='margin-bottom: 0px;'>
-                    <h3 class="bigger-title" data-translate='nav-button3'></h3>
-                </div>
+            <div class="port-item">
+              <img src="./images/portfolio/quantum.svg" />
+              <p>Qtum</p>
             </div>
-            <div class='grid-wrapper'>
-                <div class='port-row fade-in-bottom'>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/eos.svg' style='width:40px; height:40px; margin: 12px 12px'/>
-                        <p>EOS</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/stellar.png' />
-                        <p>Stellar</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/vechain.png' />
-                        <p>Vechain</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/quantum.svg' />
-                        <p>Qtum</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/omg.svg' />
-                        <p>OMG</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/zcash.png' />
-                        <p>Zcash</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/neo.svg' />
-                        <p>NEO</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/binance.svg' style='width:64px; height:14px; margin: 25px 0px'/>
-                        <p>BNB</p>
-                    </div>
-                </div>
-                <div class='port-row fade-in-bottom'>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/eos.svg' style='width:40px; height:40px; margin: 12px 12px'/>
-                        <p>EOS</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/stellar.png' />
-                        <p>Stellar</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/vechain.png' />
-                        <p>Vechain</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/quantum.svg' />
-                        <p>Qtum</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/omg.svg' />
-                        <p>OMG</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/zcash.png' />
-                        <p>Zcash</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/neo.svg' />
-                        <p>NEO</p>
-                    </div>
-                    <div class='port-item'>
-                        <img src='./images/portfolio/binance.svg' style='width:64px; height:14px; margin: 25px 0px'/>
-                        <p>BNB</p>
-                    </div>
-                </div>
+            <div class="port-item">
+              <img src="./images/portfolio/omg.svg" />
+              <p>OMG</p>
             </div>
-        </section>
-        <section id="intro" class="page4 clearfix">
-            <div class="block-title">
-                <div class="heading-block center" style='margin-bottom: 0px;'>
-                    <h3 class="bigger-title" data-translate='nav-button4'></h3>
-                </div>
+            <div class="port-item">
+              <img src="./images/portfolio/zcash.png" />
+              <p>Zcash</p>
             </div>
-            <div class='intro-wrapper'>
-                <p class="intro-text fade-in-bottom" data-translate='intro-text1'></p>
-                <p class="intro-text fade-in-bottom" data-translate='intro-text2'></p>
-                <p class="intro-text fade-in-bottom" data-translate='intro-text3'></p>
+            <div class="port-item">
+              <img src="./images/portfolio/neo.svg" />
+              <p>NEO</p>
             </div>
-        </section>
+            <div class="port-item">
+              <img
+                src="./images/portfolio/binance.svg"
+                style="width:64px; height:14px; margin: 25px 0px"
+              />
+              <p>BNB</p>
+            </div>
+          </div>
+          <div class="port-row fade-in-bottom">
+            <div class="port-item">
+              <img
+                src="./images/portfolio/eos.svg"
+                style="width:40px; height:40px; margin: 12px 12px"
+              />
+              <p>EOS</p>
+            </div>
+            <div class="port-item">
+              <img src="./images/portfolio/stellar.png" />
+              <p>Stellar</p>
+            </div>
+            <div class="port-item">
+              <img src="./images/portfolio/vechain.png" />
+              <p>Vechain</p>
+            </div>
+            <div class="port-item">
+              <img src="./images/portfolio/quantum.svg" />
+              <p>Qtum</p>
+            </div>
+            <div class="port-item">
+              <img src="./images/portfolio/omg.svg" />
+              <p>OMG</p>
+            </div>
+            <div class="port-item">
+              <img src="./images/portfolio/zcash.png" />
+              <p>Zcash</p>
+            </div>
+            <div class="port-item">
+              <img src="./images/portfolio/neo.svg" />
+              <p>NEO</p>
+            </div>
+            <div class="port-item">
+              <img
+                src="./images/portfolio/binance.svg"
+                style="width:64px; height:14px; margin: 25px 0px"
+              />
+              <p>BNB</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="page4 clearfix">
+        <div class="block-title">
+          <div class="heading-block center" style="margin-bottom: 0px;">
+            <h3 class="bigger-title" data-translate="nav-button4"></h3>
+          </div>
+        </div>
+        <div class="service-wrapper">
+          <div class="service-row fade-in-bottom">
+            <div class="service-item">
+              <img src="./images/services/HC.png" />
+              <div>
+                <h4 data-translate="service-title1"></h4>
+                <p data-translate="service-content1"></p>
+              </div>
+            </div>
+            <div class="service-item">
+              <img src="./images/services/foking.png" />
+              <div>
+                <h4 data-translate="service-title2"></h4>
+                <p data-translate="service-content2"></p>
+              </div>
+            </div>
+          </div>
+          <div class="service-row fade-in-bottom">
+            <div class="service-item">
+              <img src="./images/services/LDR.png" />
+              <div>
+                <h4 data-translate="service-title3"></h4>
+                <p data-translate="service-content3"></p>
+              </div>
+            </div>
+            <div class="service-item">
+              <img src="./images/services/TM.png" />
+              <div>
+                <h4 data-translate="service-title4"></h4>
+                <p data-translate="service-content4"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team" class="page5 clearfix">
+        <div class="block-title">
+          <div class="heading-block center" style="margin-bottom: 0px;">
+            <h3 class="bigger-title" data-translate="nav-button5"></h3>
+          </div>
+        </div>
+        <p class="team-text" data-translate="team-text"></p>
+        <div class="team-image-wrapper">
+          <img src="./images/worldmap.png" />
+          <div class="location1 dot-wrapper"><div class="dot"><div data-translate="team-location1"></div></div></div>
+          <div class="location2 dot-wrapper"><div class="dot"><div data-translate="team-location2"></div></div></div>
+          <div class="location3 dot-wrapper"><div class="dot"><div data-translate="team-location3"></div></div></div>
+          <div class="location4 dot-wrapper"><div class="dot"><div data-translate="team-location4"></div></div></div>
+          <div class="location5 dot-wrapper"><div class="dot"><div data-translate="team-location5"></div></div></div>
+        </div>
+      </section>
     </main>
 
     <!-- Go To Top
 	============================================= -->
-    <div id='gotoTop' class='icon-angle-up'>
-        <img style='width:12px; ' src='images/arrowUp.png' />
+    <div id="gotoTop" class="icon-angle-up">
+      <img style="width:12px; " src="images/arrowUp.png" />
     </div>
 
     <!-- External JavaScripts
 	============================================= -->
-    <script type='text/javascript' src='js/jquery.js'></script>
-    <script type='text/javascript' src='js/noise.min.js'></script>
-    <script type='text/javascript' src='js/util.js'></script>
-    <script type='text/javascript' src='js/swirl.js'></script>
-    <script type='text/javascript' src='js/demo.js'></script>
-    <script type='text/javascript' src='js/plugins.js'></script>
-    <script type='text/javascript' src='js/functions.js'></script>
-    <script type='text/javascript' src='js/dictionary.js'></script>
-    <script type='text/javascript' src='js/transitionAnim.js'></script>
-</body>
-
-
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/noise.min.js"></script>
+    <script type="text/javascript" src="js/util.js"></script>
+    <script type="text/javascript" src="js/swirl.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/dictionary.js"></script>
+    <script type="text/javascript" src="js/transitionAnim.js"></script>
+  </body>
 </html>

@@ -47,6 +47,62 @@ const dictionary = {
     'intro-text3': {
         'EN': 'LD Capital focuses on blockchain innovation projects within finance, games, content publishing, Internet of Things and other circuits, and we have been propelling broad layout of blockchain technology and infrastructure construction to facilitate the comprehensive development of the global blockchain ecosystem.',
         'CN': 'LD Capital focuses on blockchain innovation projects within finance, games, content publishing, Internet of Things and other circuits, and we have been propelling broad layout of blockchain technology and infrastructure construction to facilitate the comprehensive development of the global blockchain ecosystem.'
+    },
+    'service-title1': {
+        'EN': 'Advisory',
+        'CN': 'Advisory'
+    },
+    'service-content1': {
+        'EN': 'Blockchain, token economy and legal advisory.',
+        'CN': 'Blockchain, token economy and legal advisory.'
+    },
+    'service-title2': {
+        'EN': 'PR Marketing',
+        'CN': 'PR Marketing'
+    },
+    'service-content2': {
+        'EN': 'Global oriented, Chinese focused PR and Marketing specialists.',
+        'CN': 'Global oriented, Chinese focused PR and Marketing specialists.'
+    },
+    'service-title3': {
+        'EN': 'Research / Technology Support',
+        'CN': 'Research / Technology Support'
+    },
+    'service-content3': {
+        'EN': 'Blockchain, cryptography, token economy and consensus algorithm research & technical support for projects.',
+        'CN': 'Blockchain, cryptography, token economy and consensus algorithm research & technical support for projects.'
+    },
+    'service-title4': {
+        'EN': 'OTC / Asset Management',
+        'CN': 'OTC / Asset Management'
+    },
+    'service-content4': {
+        'EN': 'One of the largest crypto-asset management and financial service provider in Asia.',
+        'CN': 'One of the largest crypto-asset management and financial service provider in Asia.'
+    },
+    'team-text': {
+        'EN': '100+ industrial professionals and specialists around the world with offices in Beijing, Shanghai, Hangzhou, New York and Singapore.',
+        'CN': '100+ industrial professionals and specialists around the world with offices in Beijing, Shanghai, Hangzhou, New York and Singapore.'
+    },
+    'team-location1': {
+        'EN': 'Beijing',
+        'CN': '北  京'
+    },
+    'team-location2': {
+        'EN': 'Shanghai',
+        'CN': '上  海'
+    },
+    'team-location3': {
+        'EN': 'Hangzhou',
+        'CN': '杭  州'
+    },
+    'team-location4': {
+        'EN': 'New York',
+        'CN': '纽  约'
+    },
+    'team-location5': {
+        'EN': 'Singapore',
+        'CN': '新加坡'
     }
 
     /* -- Intro --*/

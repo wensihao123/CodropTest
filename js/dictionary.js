@@ -22,7 +22,7 @@ const dictionary = {
     },
     'nav-button3': {
         'EN': 'Portfolio',
-        'CN': 'Portfolio',
+        'CN': '投资',
     },
     'nav-button4': {
         'EN': 'Services',

@@ -36,6 +36,8 @@ const dictionary = {
         'EN': 'Language',
         'CN': '语言',
     },
+
+    /*-- Intro Page --*/
     'intro-text1': {
         'EN': "LD Capital is one of Asia's earliest organizations focusing on value investing in blockchain field. Owing to industrial resource advantages and professional investment research teams, LD Capital has successively discovered and invested in projects such as Qtum, Vechain and Eos which all achieved over 100 times return.",
         'CN': "LD Capital is one of Asia's earliest organizations focusing on value investing in blockchain field. Owing to industrial resource advantages and professional investment research teams, LD Capital has successively discovered and invested in projects such as Qtum, Vechain and Eos which all achieved over 100 times return."
@@ -48,6 +50,7 @@ const dictionary = {
         'EN': 'LD Capital focuses on blockchain innovation projects within finance, games, content publishing, Internet of Things and other circuits, and we have been propelling broad layout of blockchain technology and infrastructure construction to facilitate the comprehensive development of the global blockchain ecosystem.',
         'CN': 'LD Capital focuses on blockchain innovation projects within finance, games, content publishing, Internet of Things and other circuits, and we have been propelling broad layout of blockchain technology and infrastructure construction to facilitate the comprehensive development of the global blockchain ecosystem.'
     },
+    /*-- Service Page --*/
     'service-title1': {
         'EN': 'Advisory',
         'CN': 'Advisory'
@@ -80,6 +83,7 @@ const dictionary = {
         'EN': 'One of the largest crypto-asset management and financial service provider in Asia.',
         'CN': 'One of the largest crypto-asset management and financial service provider in Asia.'
     },
+     /*-- Team Page --*/
     'team-text': {
         'EN': '100+ industrial professionals and specialists around the world with offices in Beijing, Shanghai, Hangzhou, New York and Singapore.',
         'CN': '100+ industrial professionals and specialists around the world with offices in Beijing, Shanghai, Hangzhou, New York and Singapore.'

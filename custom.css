@@ -4,6 +4,8 @@ body {
     --theme-color-shadow: rgba(61, 172, 147, .6);
     --theme-background: rgba(30, 28, 46, 1);
     --theme-background-light: rgba(40, 39, 53, 1);
+    --theme-background-dark: rgb(25, 25, 39);
+    --theme-background-darker: rgb(22, 21, 32);
     --theme-header-color: rgba(55,52,69,.8);
     --theme-button-hover: rgb(64, 60, 80);
     --text-white: rgba(255, 255, 255, 1);
@@ -312,4 +314,51 @@ canvas {
 .location5 {
     top: 66.2%;
     right: 24.2%;
+}
+.page-footer {
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+    flex-direction: column;
+    background: var(--theme-background-dark);
+}
+.footer-title > img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-text {
+    font-size: 14px;
+    color: var( --text-white-a6);
+    margin-bottom: 8px;
+}
+.footer-mail {
+    margin-bottom: 30px;
+}
+.footer-mail > a{
+    font-size: 14px;
+    color: var(--text-white-a4);
+    margin: 8px 0;
+    transition: all .3s;
+}
+.footer-mail > a:hover{
+    color: var(--text-white);
+}
+
+.footer-mail>img {
+    height: 16px;
+    width: 16px;
+    opacity: .55;
+    margin-right: 10px;
+}
+.rights {
+    width: 100%;
+    background: var(--theme-background-darker);
+    padding: 12px 0;
+    text-align: center;
+}
+.right-text {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-white-a4);
 }

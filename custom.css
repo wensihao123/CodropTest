@@ -306,7 +306,7 @@ canvas {
 
 .page5 {
     background: var(--theme-background);
-    padding-top: 60px;
+    padding: 60px 0;
 }
 
 .team-text {

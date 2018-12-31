@@ -124,9 +124,6 @@ const dictionary = {
         'EN': 'Singapore',
         'CN': '新加坡'
     }
-
-    /* -- Intro --*/
-
 }
 
 const langs = ['EN', 'CN'];

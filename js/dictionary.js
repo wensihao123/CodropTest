@@ -25,8 +25,8 @@ const dictionary = {
         'CN': '投资',
     },
     'nav-button4': {
-        'EN': 'Services',
-        'CN': '服务',
+        'EN': 'Partner',
+        'CN': '合作',
     },
     'nav-button5': {
         'EN': 'Team',

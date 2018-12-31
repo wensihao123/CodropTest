@@ -59,6 +59,10 @@ const dictionary = {
         'EN': 'Blockchain, token economy and legal advisory.',
         'CN': 'Blockchain, token economy and legal advisory.'
     },
+    'service-tooltip1': {
+        'EN': 'Hunter Capital',
+        'CN': '猎人资本'
+    },
     'service-title2': {
         'EN': 'PR Marketing',
         'CN': 'PR Marketing'
@@ -66,6 +70,10 @@ const dictionary = {
     'service-content2': {
         'EN': 'Global oriented, Chinese focused PR and Marketing specialists.',
         'CN': 'Global oriented, Chinese focused PR and Marketing specialists.'
+    },
+    'service-tooltip2': {
+        'EN': 'Foking Group',
+        'CN': '乾景集团'
     },
     'service-title3': {
         'EN': 'Research / Technology Support',
@@ -75,13 +83,21 @@ const dictionary = {
         'EN': 'Blockchain, cryptography, token economy and consensus algorithm research & technical support for projects.',
         'CN': 'Blockchain, cryptography, token economy and consensus algorithm research & technical support for projects.'
     },
+    'service-tooltip3': {
+        'EN': 'LD Research',
+        'CN': '天机阁'
+    },
     'service-title4': {
         'EN': 'OTC / Asset Management',
         'CN': 'OTC / Asset Management'
     },
     'service-content4': {
-        'EN': 'One of the largest crypto-asset management and financial service provider in Asia.',
-        'CN': 'One of the largest crypto-asset management and financial service provider in Asia.'
+        'EN': 'One of the largest crypto-asset management and financial service providers in Asia with more than 30000BTC AUM.',
+        'CN': 'One of the largest crypto-asset management and financial service providers in Asia with more than 30000BTC AUM.'
+    },
+    'service-tooltip4': {
+        'EN': 'LD Plus',
+        'CN': 'LD Plus'
     },
      /*-- Team Page --*/
     'team-text': {

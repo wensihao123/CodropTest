@@ -444,3 +444,42 @@ canvas {
     font-size: 13px;
     color: var(--text-white-a4);
 }
+.mobile-locale {
+    position: absolute;
+    top: 8px;
+    right:8px;
+    display: flex;
+    z-index: 999;
+    opacity: 0.5;
+}
+.locale-item > img {
+    width: 20px;
+}
+
+@media(max-width: 769px) {
+    .service-wrapper {
+        width: 95%;
+    }
+    .service-row {
+        flex-direction: column;
+    }
+    .service-row >div:first-child {
+        margin-bottom: 40px;
+    }
+    .service-item > div:last-child {
+        width: 70%;
+    }
+    .team-text{
+        width: 95%;
+    }
+    .team-image-wrapper {
+        width: 95%;
+    }
+    .dot-wrapper>.dot {
+        width: 10px;
+        height:10px;
+    }
+    .right-text {
+        padding:0 40px;
+    }
+}

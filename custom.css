@@ -430,7 +430,10 @@ canvas {
     opacity: .55;
     margin-right: 10px;
 }
-
+.wechat-qr-code {
+    top: -172px; 
+    left: 36px;
+}
 .rights {
     width: 100%;
     background: var(--theme-background-darker);
@@ -478,6 +481,9 @@ canvas {
     .dot-wrapper>.dot {
         width: 10px;
         height:10px;
+    }
+    .wechat-qr-code {
+        left: -136px;
     }
     .right-text {
         padding:0 40px;

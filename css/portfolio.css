@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 40px;
+    margin: 60px auto;
 }
 .icon-gallery {
     width: 1040px;
-    height: 310px;
+    height: 340px;
     padding: 20px 40px 40px 20px;
     overflow: hidden;
     position: relative;  
@@ -20,11 +20,12 @@
 }
 .icon-group {
     width: 960px;
-    height: 250px;
+    height: 280px;
     margin: 0 40px;
 }
 .icon-group-inner {
     padding-top: 20px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,14 +34,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .icon-group-item-img {
-    width: 64px;
-    height: 64px;
+    width: 72px;
+    height: 72px;
 }
 .icon-group-item-text {
     margin-top: 18px;
-    color: #fff
+    color: #fff;
+    font-size: 12px;
 }
 .page-dot-wrapper {
     height: 20px;
@@ -81,3 +84,9 @@
 #next-button > img {
     transform: rotate(90deg);
 }
+
+#ig2 > #ig-inner2-0 > a:nth-child(2) > .icon-group-item-text, 
+#ig3 > #ig-inner3-1 > a:nth-child(4) > .icon-group-item-text {
+    font-size: 10px;
+}
+

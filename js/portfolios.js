@@ -1,8 +1,7 @@
 var $ = jQuery.noConflict();
 const icons = [
 	[
-		[
-			{
+		[{
 				name: "EOS",
 				src: "./images/portfolio/eos.svg",
 				href: "https://eos.io/"
@@ -43,8 +42,7 @@ const icons = [
 				href: "https://www.binance.com/en"
 			}
 		],
-		[
-			{
+		[{
 				name: "OKB",
 				src: "./images/portfolio/okb.png",
 				href: "https://www.okex.com"
@@ -87,8 +85,7 @@ const icons = [
 		]
 	],
 	[
-		[
-			{
+		[{
 				name: "GXS",
 				src: "./images/portfolio/GXS.png",
 				href: "https://www.gxb.io/"
@@ -129,8 +126,7 @@ const icons = [
 				href: "https://www.ulord.one/"
 			}
 		],
-		[
-			{
+		[{
 				name: "Perlin",
 				src: "./images/portfolio/perlin.svg",
 				href: "https://www.perlin.net/"
@@ -173,8 +169,7 @@ const icons = [
 		]
 	],
 	[
-		[
-			{
+		[{
 				name: "Mytoken",
 				src: "./images/portfolio/mytoken.png",
 				href: "https://www.mytoken.io/"
@@ -215,8 +210,7 @@ const icons = [
 				href: "https://edenchain.io/"
 			}
 		],
-		[
-			{
+		[{
 				name: "Contentbox",
 				src: "./images/portfolio/contentbox.png",
 				href: "https://contentbox.one/"
@@ -259,8 +253,7 @@ const icons = [
 		]
 	],
 	[
-		[
-			{
+		[{
 				name: "Becent",
 				src: "./images/portfolio/becent.png",
 				href: "https://www.becent.com"
@@ -301,8 +294,7 @@ const icons = [
 				href: "https://contentsprotocol.io/"
 			}
 		],
-		[
-			{
+		[{
 				name: "MANX",
 				src: "./images/portfolio/manx.png",
 				href: "https://www.macrochain.io"
@@ -349,8 +341,9 @@ const gLength = icons.length;
 const nextButton = $("#next-button");
 const prevButton = $("#prev-button");
 const gallery = $(".ig-wrapper");
+const galleryM = $('.portfolio-wrapper-m');
 const pagination = $(".page-dot-wrapper");
-var timer = setInterval(function() {
+var timer = setInterval(function () {
 	$(`#ig-dot${currentIndex}`).css("opacity", 0.4);
 	currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 	gallery.css("left", -currentIndex * 1040 + "px");
@@ -374,13 +367,13 @@ icons.forEach((d, i) => {
 	});
 });
 $(`#ig-dot${currentIndex}`).css("opacity", 1);
-nextButton.click(function() {
+nextButton.click(function () {
 	window.clearInterval(timer);
 	$(`#ig-dot${currentIndex}`).css("opacity", 0.4);
 	currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 	gallery.css("left", -currentIndex * 1040 + "px");
 	$(`#ig-dot${currentIndex}`).css("opacity", 1);
-	timer = setInterval(function() {
+	timer = setInterval(function () {
 		$(`#ig-dot${currentIndex}`).css("opacity", 0.4);
 		currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 		gallery.css("left", -currentIndex * 1040 + "px");
@@ -388,17 +381,26 @@ nextButton.click(function() {
 	}, 5000);
 });
 
-prevButton.click(function() {
+prevButton.click(function () {
 	window.clearInterval(timer);
 	$(`#ig-dot${currentIndex}`).css("opacity", 0.4);
 	currentIndex > 0 ? currentIndex-- : (currentIndex = gLength - 1);
 	gallery.css("left", -currentIndex * 1040 + "px");
 	$(`#ig-dot${currentIndex}`).css("opacity", 1);
 	timer.reset(5000);
-	timer = setInterval(function() {
+	timer = setInterval(function () {
 		$(`#ig-dot${currentIndex}`).css("opacity", 0.4);
 		currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 		gallery.css("left", -currentIndex * 1040 + "px");
 		$(`#ig-dot${currentIndex}`).css("opacity", 1);
 	}, 5000);
+});
+
+icons.forEach((d, i) => {
+	d.forEach((dd, di) => {
+		dd.forEach((ddd, ddi) => {
+			ddi % 2 === 0 ? galleryM.append(`<div class='mobile-icon-row' id=${'igm'+ i + '-' + di + '-' + (ddi / 2)}><a class='icon-group-item-m' href='${ddd.href}' target='_blank'><img class='icon-group-item-m-img' src='${ddd.src}'/><div class='icon-group-item-m-text'>${ddd.name}</div></a></div>`)
+			: $(`#igm${i}-${di}-${(ddi - 1) / 2 }`).append(`<a class='icon-group-item-m' href='${ddd.href}' target='_blank'><img class='icon-group-item-m-img' src='${ddd.src}'/><div class='icon-group-item-m-text'>${ddd.name}</div></a>`)
+		});
+	});
 });

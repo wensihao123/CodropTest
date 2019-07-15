@@ -478,6 +478,9 @@ canvas {
     opacity: 1
 }
 @media(max-width: 769px) {
+    .content__title {
+        width: auto;
+    }
     .service-wrapper {
         width: 95%;
     }

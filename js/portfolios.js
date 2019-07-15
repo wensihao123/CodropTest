@@ -27,25 +27,25 @@ const icons = [
 				href: "https://omisego.network/"
 			},
 			{
-				name: "Zcash",
-				src: "./images/portfolio/zcash.png",
-				href: "https://z.cash/zh/"
+				name: "Bilaxy",
+				src: "./images/portfolio/bilaxy.png",
+				href: "https://bilaxy.com/"
 			},
 			{
-				name: "NEO",
-				src: "./images/portfolio/neo.svg",
-				href: "https://neo.org/"
+				name: "Bitmax",
+				src: "./images/portfolio/bitmax.png",
+				href: "https://bitmax.io/"
 			},
 			{
-				name: "BNB",
-				src: "./images/portfolio/binance.png",
-				href: "https://www.binance.com/en"
+				name: "BKEX",
+				src: "./images/portfolio/bkex.png",
+				href: "https://www.bkex.com/"
 			}
 		],
 		[{
-				name: "OKB",
-				src: "./images/portfolio/okb.png",
-				href: "https://www.okex.com"
+				name: "DUO",
+				src: "./images/portfolio/duo.png",
+				href: "https://duo.network/"
 			},
 			{
 				name: "HT",
@@ -205,9 +205,9 @@ const icons = [
 				href: "https://www.mxc.org/"
 			},
 			{
-				name: "EdenChain",
-				src: "./images/portfolio/eden.png",
-				href: "https://edenchain.io/"
+				name: "Polkadot",
+				src: "./images/portfolio/dot.png",
+				href: "https://polkadot.network/"
 			}
 		],
 		[{
@@ -241,9 +241,9 @@ const icons = [
 				href: "https://origo.network/"
 			},
 			{
-				name: "Bizkey",
-				src: "./images/portfolio/bizkey.png",
-				href: "https://bizkey.io/"
+				name: "GRIN",
+				src: "./images/portfolio/grin.png",
+				href: "https://grin-tech.org/"
 			},
 			{
 				name: "HIT",
@@ -254,9 +254,9 @@ const icons = [
 	],
 	[
 		[{
-				name: "Becent",
-				src: "./images/portfolio/becent.png",
-				href: "https://www.becent.com"
+				name: "HUB",
+				src: "./images/portfolio/hub.png",
+				href: "https://www.hubtoken.org/"
 			},
 			{
 				name: "Soar",
@@ -295,9 +295,9 @@ const icons = [
 			}
 		],
 		[{
-				name: "MANX",
-				src: "./images/portfolio/manx.png",
-				href: "https://www.macrochain.io"
+				name: "LBANK",
+				src: "./images/portfolio/lbank.png",
+				href: "https://www.lbank.info/"
 			},
 			{
 				name: "Lition",
@@ -335,6 +335,29 @@ const icons = [
 				href: "http://egretia.io/"
 			}
 		]
+	],
+	[
+		[{
+				name: "MXC",
+				src: "./images/portfolio/mxc2.png",
+				href: "https://www.mxc.com/"
+			},
+			{
+				name: "Sero",
+				src: "./images/portfolio/sero.png",
+				href: "https://sero.cash/cn/"
+			},
+			{
+				name: "Stpt",
+				src: "./images/portfolio/stpt.png",
+				href: "https://stp.network/"
+			},
+			{
+				name: "TOP",
+				src: "./images/portfolio/top.png",
+				href: "https://www.topnetwork.org/"
+			}
+		]
 	]
 ];
 const gLength = icons.length;
@@ -348,7 +371,7 @@ var timer = setInterval(function () {
 	currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 	gallery.css("left", -currentIndex * 1040 + "px");
 	$(`#ig-dot${currentIndex}`).css("opacity", 1);
-}, 5000);
+}, 15000);
 var currentIndex = 0;
 
 gallery.css("left", -currentIndex * 1040 + "px");
@@ -378,7 +401,7 @@ nextButton.click(function () {
 		currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 		gallery.css("left", -currentIndex * 1040 + "px");
 		$(`#ig-dot${currentIndex}`).css("opacity", 1);
-	}, 5000);
+	}, 15000);
 });
 
 prevButton.click(function () {
@@ -387,13 +410,13 @@ prevButton.click(function () {
 	currentIndex > 0 ? currentIndex-- : (currentIndex = gLength - 1);
 	gallery.css("left", -currentIndex * 1040 + "px");
 	$(`#ig-dot${currentIndex}`).css("opacity", 1);
-	timer.reset(5000);
+	timer.reset(15000);
 	timer = setInterval(function () {
 		$(`#ig-dot${currentIndex}`).css("opacity", 0.4);
 		currentIndex < gLength - 1 ? currentIndex++ : (currentIndex = 0);
 		gallery.css("left", -currentIndex * 1040 + "px");
 		$(`#ig-dot${currentIndex}`).css("opacity", 1);
-	}, 5000);
+	}, 15000);
 });
 
 icons.forEach((d, i) => {
